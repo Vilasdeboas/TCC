@@ -1,0 +1,4 @@
+unitID,unitName,unitLevel,damage,maxHP
+0,Enemy 1,5,1,10
+1,Enemy 2,7,2,20
+2,Enemy 3,10,3,30

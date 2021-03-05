@@ -1,0 +1,11 @@
+question,answer0,answer1,answer2,answer3,correct_answer
+5+5=?,10,9,8,0,0
+5+?=2,0,5,-3,1,2
+y=mx+b,Exponencial,Quadrática,Logarítmica,Linear,3
+5*5,25,50,10,2.5,0
+SE/SENÃO/ENTÃO,Condicional,Laço,Atribuição,Instanciação,0
+FOR/REPEAT/WHILE,Condicional,Laço,Atribuição,Instanciação,1
+5-2*3,9,13,11,-1,3
+NEW(),Condicional,Laço,Atribuição,Instanciação,3
+X=Y,Condicional,Laço,Atribuição,Instanciação,2
+X = 0; X++; X=?,0, 1, 2, 3, 1
