@@ -34,10 +34,21 @@ public class BattleSystem : MonoBehaviour {
     private int correctAnswer;
     private int last_pos;
 
-    void Start() {
+    private void Start() {
         state = BattleState.START;
         last_pos = -1;
         StartCoroutine(SetupBattle());
+    }
+
+    private void Update() {
+        if (TimerHandler.Ended()) {
+            TimerHandler.ResetEndedStatus();
+            if (state == BattleState.PLAYERTURN) {
+                StartCoroutine(PlayerAttack(correctAnswer - 1));
+            } else if(state == BattleState.ENEMYTURN) {
+                StartCoroutine(EnemyAttack(correctAnswer - 1));
+            }
+        }
     }
 
     IEnumerator SetupBattle() {
@@ -57,7 +68,7 @@ public class BattleSystem : MonoBehaviour {
         yield return new WaitForSeconds(2f);
 
         state = BattleState.PLAYERTURN;
-        StartCoroutine(PlayerTurn());
+        StartCoroutine(SetupTurn());
     }
 
     //
@@ -65,12 +76,10 @@ public class BattleSystem : MonoBehaviour {
     //TRANSFORMAR O TURNO DO PLAYER E O DO INIMIGO NUM MÉTODO SÓ E USAR CONDICIONAL PRA MOSTRAR O TEXTO CORRETO/CHAMAR A FUNÇÃO CORRETA
     //
     //
-    IEnumerator EnemyTurn() {
-        dialogueText.text = "DEFENSE TURN";
-        turnText.text = "DEFENSE TURN";
-        yield return new WaitForSeconds(1f);
-        PrepareAnswerPhase();
-        changeActionButtonState(true);
+    private void EnemyTurn() {
+        string turnTextPlaceholder = "DEFENSE TURN";
+        dialogueText.text = turnTextPlaceholder;
+        turnText.text = turnTextPlaceholder;
     }
 
     IEnumerator EnemyAttack(int option) {
@@ -92,8 +101,17 @@ public class BattleSystem : MonoBehaviour {
             state = BattleState.LOST;
             StartCoroutine(EndBattle());
         } else {
+            SwapUnitsTurn();
+            StartCoroutine(SetupTurn());
+        }
+    }
+
+    private void SwapUnitsTurn() {
+        if (state == BattleState.PLAYERTURN) {
+            state = BattleState.ENEMYTURN;
+        }
+        else if (state == BattleState.ENEMYTURN) {
             state = BattleState.PLAYERTURN;
-            StartCoroutine(PlayerTurn());
         }
     }
 
@@ -109,13 +127,24 @@ public class BattleSystem : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
-    IEnumerator PlayerTurn() {
-        string playerTurnText = "ATTACK TURN";
-        dialogueText.text = playerTurnText;
-        turnText.text = playerTurnText;
+    IEnumerator SetupTurn() {
+        changeActionButtonState(false);
+        if (state == BattleState.PLAYERTURN) {
+            PlayerTurn();
+        }
+        if(state == BattleState.ENEMYTURN) {
+            EnemyTurn();
+        }
         yield return new WaitForSeconds(1f);
         PrepareAnswerPhase();
         changeActionButtonState(true);
+        TimerHandler.Run();
+    }
+
+    private void PlayerTurn() {
+        string turnTextPlaceholder = "ATTACK TURN";
+        dialogueText.text = turnTextPlaceholder;
+        turnText.text = turnTextPlaceholder;
     }
 
     IEnumerator PlayerAttack(int option) {
@@ -134,8 +163,8 @@ public class BattleSystem : MonoBehaviour {
             state = BattleState.WON;
             StartCoroutine(EndBattle());
         } else {
-            state = BattleState.ENEMYTURN;
-            StartCoroutine(EnemyTurn());
+            SwapUnitsTurn();
+            StartCoroutine(SetupTurn());
         }
     }
 
@@ -161,6 +190,7 @@ public class BattleSystem : MonoBehaviour {
     //
     //
     public void OnAttackButton(int option) {
+        TimerHandler.Stop();
         if(state == BattleState.PLAYERTURN) {
             changeActionButtonState(false);
             StartCoroutine(PlayerAttack(option));
