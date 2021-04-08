@@ -34,6 +34,7 @@ public class BattleSystem : MonoBehaviour {
     private int correctAnswer;
     private int last_pos;
 
+    public LevelUpModal levelUpModal;
     private void Start() {
         state = BattleState.START;
         last_pos = -1;
@@ -70,12 +71,6 @@ public class BattleSystem : MonoBehaviour {
         state = BattleState.PLAYERTURN;
         StartCoroutine(SetupTurn());
     }
-
-    //
-    //
-    //TRANSFORMAR O TURNO DO PLAYER E O DO INIMIGO NUM MÉTODO SÓ E USAR CONDICIONAL PRA MOSTRAR O TEXTO CORRETO/CHAMAR A FUNÇÃO CORRETA
-    //
-    //
     private void EnemyTurn() {
         string turnTextPlaceholder = "DEFENSE TURN";
         dialogueText.text = turnTextPlaceholder;
@@ -99,7 +94,7 @@ public class BattleSystem : MonoBehaviour {
 
         if(isDead) {
             state = BattleState.LOST;
-            StartCoroutine(EndBattle());
+            EndBattle();
         } else {
             SwapUnitsTurn();
             StartCoroutine(SetupTurn());
@@ -115,16 +110,15 @@ public class BattleSystem : MonoBehaviour {
         }
     }
 
-    IEnumerator EndBattle() {
+    private void EndBattle() {
         if(state == BattleState.WON) {
             dialogueText.text = "You won the battle!";
+            playerUnit.calculatePlayerExperience(enemyUnit.experience, levelUpModal);
         }
         if(state == BattleState.LOST) {
             dialogueText.text = "You were defeated.";
         }
-        yield return new WaitForSeconds(2f);
-        Destroy(GameObject.Find("BattleInfo"));
-        SceneManager.LoadScene("MainMenu");
+        playerUnit.UpdatePlayerPrefs();
     }
 
     IEnumerator SetupTurn() {
@@ -161,7 +155,7 @@ public class BattleSystem : MonoBehaviour {
         yield return new WaitForSeconds(2f);
         if(isDead) {
             state = BattleState.WON;
-            StartCoroutine(EndBattle());
+            EndBattle();
         } else {
             SwapUnitsTurn();
             StartCoroutine(SetupTurn());

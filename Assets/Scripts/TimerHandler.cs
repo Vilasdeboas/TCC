@@ -7,7 +7,7 @@ public class TimerHandler : MonoBehaviour
 {
 
     private static float time;
-    private static float defaultTime = 5;
+    private static float defaultTime = 20;
     private static bool isRunning = false;
     private static bool hasEnded = false;
     public Image fillImage;

@@ -1,4 +1,5 @@
 unitID,unitName,unitLevel,damage,maxHP
-0,Enemy 1,5,1,10
-1,Enemy 2,7,2,20
-2,Enemy 3,10,3,30
+0,Muffin,5,1,10
+1,Happy Shadow,7,2,20
+2,Sock,10,3,30
+3,Sleepy Mage,1,1,10

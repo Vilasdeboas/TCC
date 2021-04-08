@@ -8,7 +8,6 @@ public class DamagePopup : MonoBehaviour
 {
 
     private static bool hit;
-
     //CodeMonkey stolen code starts here
     public static Color GetColorFromString(string color) {
         float red = Hex_to_Dec01(color.Substring(0, 2));
@@ -56,7 +55,7 @@ public class DamagePopup : MonoBehaviour
 
         if(!isHit) {
             textMesh.fontSize = defaultFontSize;
-            textColor = GetColorFromString("808080");
+            textColor = GetColorFromString("FF0000");
         } else {
             textMesh.fontSize = criticalHitFontSize;
             textColor = GetColorFromString("00FF00");

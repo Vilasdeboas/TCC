@@ -4,8 +4,7 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 
-public class QuestionHandler
-{
+public class QuestionHandler {
 
     public string question;
     public string[] answers;

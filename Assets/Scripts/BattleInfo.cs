@@ -19,21 +19,17 @@ public class  BattleInfo : MonoBehaviour
         }
     }
 
-    public void SetUnitsInfo(int enemy_id) {
-        player = new UnitInfo();
-        enemy = new UnitInfo();
+    public void onClickSave() {
+        PlayerPrefsHandler.Save("Player", 10, 10, 50, 1, 0, 1, 0);
+    }
 
+    public void SetUnitsInfo(int enemy_id) {
+        enemy = new UnitInfo();
         List<string[]> enemiesList = new List<string[]>();
 
         enemiesList = new QuestionHandler().ReadFile("enemy_units.csv");
 
         string[] enemy_info = GetEnemyFromList(enemiesList, enemy_id);
-
-        player.unitName = "Player";
-        player.unitLevel = 2;
-        player.damage = 50;
-        player.maxHP = 10;
-        player.currentHP = player.maxHP;
 
         enemy.unitName = enemy_info[1];
         enemy.unitLevel = Int32.Parse(enemy_info[2]);
