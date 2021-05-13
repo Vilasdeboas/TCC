@@ -1,0 +1,3 @@
+IF (ou SE em português) é uma condicional.||Sempre que você precisa escolher entre ||duas alternativas de funcionamento,|| uma condicional deve ser usada.||Por exemplo: ||Você só sairá com um guarda-chuva caso|| a previsão do tempo diga que vai chover.||Então, SE chove você leva, SENÃO você não leva.
+FOR (ou PARA em portugês) é um laço de repetição,|| ou apenas laço.||Sempre que você precisa repetir|| o mesmo comando várias vezes,|| você deve usar um laço.||Por exemplo: ||Imprimir o nome de três pessoas|| que estão salvos na mesma variável.||PARA cada nome na variável, ||imprima em ordem até o último.
+Eu fiquei com preguiça a partir daqui|| porque é só um teste então dane-se.

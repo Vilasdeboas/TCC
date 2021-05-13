@@ -70,16 +70,17 @@ public class Unit : MonoBehaviour {
     public void calculatePlayerExperience(int enemyExperience, LevelUpModal levelUpModal) {
         bool levelUpDone = false;
         int actual = actualExperience + enemyExperience;
-        levelUpModal.PrepareAndShow(originalUnitLevel, totalExperience, actual, requiredExperience);
+        //levelUpModal.PrepareAndShow(originalUnitLevel, totalExperience, actual, requiredExperience);
         while(!levelUpDone) { 
-            StartCoroutine(levelUpModal.AnimateSlider(unitLevel, totalExperience, actual, requiredExperience));
             if(actual >= requiredExperience) {
+                StartCoroutine(levelUpModal.AnimateSlider(unitLevel, totalExperience, actual, requiredExperience));
                 totalExperience += requiredExperience;
                 actual -= requiredExperience;
                 actualExperience = actual;
                 unitLevel++;
                 requiredExperience = unitLevel * 1;
             } else {
+                levelUpModal.PrepareAndShow(unitLevel, totalExperience, actual, requiredExperience);
                 levelUpDone = true;
             }
         }

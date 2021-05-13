@@ -61,16 +61,19 @@ public class LevelUpModal : MonoBehaviour {
         if(!isOpen) {
             Open();
         }
-        int expDifference = Mathf.Abs(actualExperience - requiredExperience);
-        //SetupModal(level, totalExperience, actualExperience, requiredExperience);
-        SetupModal(level, totalExperience, 0, requiredExperience);
-        for(int i = 0; i < expDifference; i++) {
-            levelUpBar.value++;
-            Debug.Log(i+1);
-            if(levelUpBar.value >= requiredExperience) {
+        int expDifference = System.Math.Abs(actualExperience - requiredExperience);
+        SetupModal(level, totalExperience, actualExperience, requiredExperience);
+        int times = actualExperience / 10;
+        int x = 0;
+        //SetupModal(level, totalExperience, 0, requiredExperience);
+        for(int i = 0; i < times; i++) {
+            Debug.Log("PORQUE DEUS");
+            /*if(levelUpBar.value >= levelUpBar.maxValue) {
                 levelUpBar.value = levelUpBar.maxValue;
                 break;
-            }
+            }*/
+            SetupModal(level, totalExperience, x, requiredExperience);
+            x += times;
             yield return new WaitForSeconds(1f);
         }
     }
