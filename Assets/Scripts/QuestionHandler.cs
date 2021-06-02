@@ -33,7 +33,6 @@ public class QuestionHandler {
 
         question = options[pos][0];
         answers = answersNewArray;
-        //correct_answer = Int32.Parse(options[pos][5]);
         correct_answer = GetNewCorrectAnswerPosition(answersOldArray[Int32.Parse(options[pos][5])], answersNewArray);
 
         return last_pos;
@@ -41,12 +40,14 @@ public class QuestionHandler {
 
     public string[] ShuffleAnswersArray(string[] array) {
         System.Random random = new System.Random();
+
         for(int i = array.Length - 1; i > 0; i--) {
             int randomIndex = random.Next(0, i + 1);
             string temp = array[i];
             array[i] = array[randomIndex];
             array[randomIndex] = temp;
         }
+
         return array;
     }
 

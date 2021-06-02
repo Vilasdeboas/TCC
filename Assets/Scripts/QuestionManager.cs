@@ -12,12 +12,20 @@ public class QuestionManager : MonoBehaviour
     private List<string[]> questions_list;
     private Dictionary<int, List<string[]>> questions_dict;
     private int num_of_chapters = 0;
+    private int last_question_pos = -1;
 
     private void Awake() {
         questionHandler = new QuestionHandler();
         questions_dict = new Dictionary<int, List<string[]>>();
         questions_list = questionHandler.ReadCSV(filename, filepath, "|");
         PrepareQuestions();
+        QuestionObj question = GenerateQuestion(1);
+        Debug.Log("Question: "+question.Question);
+        Debug.Log("Answer 1: " + question.Answers[0]);
+        Debug.Log("Answer 2: " + question.Answers[1]);
+        Debug.Log("Answer 3: " + question.Answers[2]);
+        Debug.Log("Answer 4: " + question.Answers[3]);
+        Debug.Log("Correct Answer: " + question.Correct_answer);
     }
 
     private void PrepareQuestions() {
@@ -43,7 +51,55 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
-    public List<string[]> getListByChapter(int chapter) {
+    private List<string[]> GetListByChapter(int chapter) {
         return this.questions_dict[chapter];
+    }
+
+    private string[] SelectRandomQuestion(List<string[]> all_questions) {
+        int random_pos = new System.Random().Next(0, all_questions.Count);
+        return all_questions[random_pos];
+    }
+
+    private string[] ShuffleAnswers(string[] answers) {
+        System.Random random = new System.Random();
+
+        for(int i = answers.Length - 1; i > 0; i--) {
+            int random_index = random.Next(0, i + 1);
+            string temp = answers[i];
+            answers[i] = answers[random_index];
+            answers[random_index] = temp;
+        }
+
+        return answers;
+    }
+
+    private int GetNewCorrectAnswerPosition(string original_answer, string[] new_answers) {
+        int correct_answer = 0;
+
+        for (int i = 0; i < new_answers.Length; i++) {
+            if (original_answer == new_answers[i]) {
+                Debug.Log(original_answer);
+                Debug.Log(new_answers[i]);
+                correct_answer = i;
+            }
+        }
+
+        return correct_answer;
+    }
+
+    public QuestionObj GenerateQuestion(int chapter) {
+        List<string[]> all_questions = GetListByChapter(chapter);
+        string[] new_question_line = SelectRandomQuestion(all_questions);
+
+        string question = new_question_line[0];
+        string[] shuffled_answers = ShuffleAnswers(new string[] {
+            new_question_line[1], new_question_line[2], new_question_line[3], new_question_line[4]
+        });
+
+        string original_correct_answer = new_question_line[Int32.Parse(new_question_line[5])];
+
+        int correct_answer_pos = GetNewCorrectAnswerPosition(original_correct_answer, shuffled_answers);
+
+        return new QuestionObj(question, shuffled_answers, correct_answer_pos);
     }
 }

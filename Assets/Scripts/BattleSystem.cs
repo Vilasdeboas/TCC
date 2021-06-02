@@ -177,12 +177,6 @@ public class BattleSystem : MonoBehaviour {
         }
     }
 
-
-    //
-    //
-    //TRANSFORMAR NUM IF SÓ SEPARADO POR OR
-    //
-    //
     public void OnAttackButton(int option) {
         TimerHandler.Stop();
         if(state == BattleState.PLAYERTURN) {
