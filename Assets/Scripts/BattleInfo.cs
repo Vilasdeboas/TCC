@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class  BattleInfo : MonoBehaviour
 {
+    private string filepath = "Assets/Resources/";
     public UnitInfo player;
     public UnitInfo enemy;
     public static BattleInfo Instance;
@@ -27,7 +28,7 @@ public class  BattleInfo : MonoBehaviour
         enemy = new UnitInfo();
         List<string[]> enemiesList = new List<string[]>();
 
-        enemiesList = new QuestionHandler().ReadFile("enemy_units.csv");
+        enemiesList = new QuestionHandler().ReadCSV("enemy_units.csv", this.filepath);
 
         string[] enemy_info = GetEnemyFromList(enemiesList, enemy_id);
 

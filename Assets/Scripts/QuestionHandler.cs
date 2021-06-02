@@ -6,17 +6,19 @@ using System.Collections.Generic;
 
 public class QuestionHandler {
 
+    private string resources_filepath = "Assets/Resources/";
     public string question;
     public string[] answers;
     public int correct_answer;
 
-    private string file_path = "Assets/Resources/";
+    //private string file_path = "Assets/Resources/";
     private string file_name = "questions.csv";
 
     private List<string[]> options = new List<string[]>();
 
     public int SetInfo(int last_pos) {
-        options = ReadFile(file_name);
+        string filepath = "Assets/Resources/";
+        options = ReadCSV(file_name, filepath);
         int pos = new System.Random().Next(0, options.Count);
         if(last_pos != -1) {
             while(last_pos == pos) {
@@ -58,14 +60,14 @@ public class QuestionHandler {
         return position;
     }
 
-    public List<string[]> ReadFile(string filename) {
-        string path = file_path + filename;
+    public List<string[]> ReadCSV(string filename, string filepath, string splitter = ",") {
+        string path = filepath + filename;
         string content = new StreamReader(path).ReadToEnd();
         List<string> lines = new List<string>(content.Split('\n'));
         List<string[]> aux_array = new List<string[]>();
         lines.RemoveAt(0);
         for(int i = 0; i < lines.Count-1; i++) {
-            aux_array.Add(lines[i].Split(','));
+            aux_array.Add(lines[i].Split(Convert.ToChar(splitter[0])));
         }
 
         return aux_array;
@@ -86,7 +88,7 @@ public class QuestionHandler {
     }
 
     public List<Texture2D> ReadTextureFile(string filename, string filepath) {
-        string path = file_path + filepath + filename;
+        string path = this.resources_filepath + filepath + filename;
         string[] texture_list = Directory.GetFiles(path, "*.psd");
         List<Texture2D> aux_array = new List<Texture2D>();
         for(int i = 0; i < texture_list.Length; i++) {
