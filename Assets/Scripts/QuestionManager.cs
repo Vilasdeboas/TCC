@@ -8,7 +8,7 @@ public class QuestionManager : MonoBehaviour
 {
     public static QuestionManager Instance;
     private string filepath = "Assets/Resources/";
-    private string filename = "questions_new.csv";
+    private string filename = "questions.csv";
     private QuestionHandler questionHandler;
     private List<string[]> questions_list;
     private Dictionary<int, List<string[]>> questions_dict;

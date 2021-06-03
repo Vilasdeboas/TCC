@@ -28,7 +28,7 @@ public class  BattleInfo : MonoBehaviour
     }
 
     public void onClickSave() {
-        PlayerPrefsHandler.Save("Player", 10, 10, 1, 1, 0, 1, 0);
+        PlayerPrefsHandler.Save("Player", 10, 10, 20, 1, 0, 1, 0);
     }
 
     public void SetUnitsInfo(int enemy_id) {
