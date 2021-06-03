@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class MapManager : MonoBehaviour
 {
+    public BattleInfo battleInfo;
     public List<CanvasGroup> mapList;
     private int currentMapIndex = 0;
 
@@ -18,6 +19,7 @@ public class MapManager : MonoBehaviour
                 mapList[i].alpha = 1;
                 mapList[i].interactable = true;
                 mapList[i].blocksRaycasts = true;
+                battleInfo.Chapter = i + 1; //Sets Chapter for Battle
             } else {
                 mapList[i].alpha = 0;
                 mapList[i].interactable = false;

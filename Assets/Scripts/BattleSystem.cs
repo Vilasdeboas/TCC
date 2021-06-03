@@ -8,6 +8,9 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST };
 
 public class BattleSystem : MonoBehaviour {
 
+    private BattleInfo battleInfo;
+    private QuestionManager questionManager;
+
     public GameObject playerPrefab;
     public GameObject enemyPrefab;
 
@@ -32,12 +35,12 @@ public class BattleSystem : MonoBehaviour {
     public BattleState state;
 
     private int correctAnswer;
-    private int last_pos;
 
     public LevelUpModal levelUpModal;
     private void Start() {
         state = BattleState.START;
-        last_pos = -1;
+        questionManager = FindObjectOfType<QuestionManager>();
+        battleInfo = FindObjectOfType<BattleInfo>();
         StartCoroutine(SetupBattle());
     }
 
@@ -163,11 +166,10 @@ public class BattleSystem : MonoBehaviour {
     }
 
     void PrepareAnswerPhase() {
-        QuestionHandler questionObj = new QuestionHandler();
-        last_pos = questionObj.SetInfo(last_pos);
-        correctAnswer = questionObj.correct_answer;
-        SetButtons(questionObj.answers);
-        dialogueText.text = questionObj.question;
+        QuestionObj questionObj = questionManager.GenerateQuestion(battleInfo.Chapter);
+        correctAnswer = questionObj.Correct_answer;
+        SetButtons(questionObj.Answers);
+        dialogueText.text = questionObj.Question;
     }
 
     void SetButtons(string[] answers) {

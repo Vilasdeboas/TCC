@@ -6,26 +6,30 @@ using UnityEngine;
 
 public class QuestionManager : MonoBehaviour
 {
+    public static QuestionManager Instance;
     private string filepath = "Assets/Resources/";
     private string filename = "questions_new.csv";
     private QuestionHandler questionHandler;
     private List<string[]> questions_list;
     private Dictionary<int, List<string[]>> questions_dict;
     private int num_of_chapters = 0;
-    private int last_question_pos = -1;
+    private int[] repeated_questions;
+
+    private void Start() {
+        if(Instance == null) {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        } else {
+            Destroy(gameObject);
+        }
+    }
 
     private void Awake() {
         questionHandler = new QuestionHandler();
         questions_dict = new Dictionary<int, List<string[]>>();
         questions_list = questionHandler.ReadCSV(filename, filepath, "|");
         PrepareQuestions();
-        QuestionObj question = GenerateQuestion(1);
-        Debug.Log("Question: "+question.Question);
-        Debug.Log("Answer 1: " + question.Answers[0]);
-        Debug.Log("Answer 2: " + question.Answers[1]);
-        Debug.Log("Answer 3: " + question.Answers[2]);
-        Debug.Log("Answer 4: " + question.Answers[3]);
-        Debug.Log("Correct Answer: " + question.Correct_answer);
+        repeated_questions = new int[] { -1, -1, -1 };
     }
 
     private void PrepareQuestions() {
@@ -56,7 +60,15 @@ public class QuestionManager : MonoBehaviour
     }
 
     private string[] SelectRandomQuestion(List<string[]> all_questions) {
-        int random_pos = new System.Random().Next(0, all_questions.Count);
+
+        bool is_repeated = true;
+        int random_pos = 0;
+
+        while(is_repeated) {
+            random_pos = new System.Random().Next(0, all_questions.Count);
+            is_repeated = CheckIfRepeatedQuestion(random_pos);
+        }
+
         return all_questions[random_pos];
     }
 
@@ -75,15 +87,12 @@ public class QuestionManager : MonoBehaviour
 
     private int GetNewCorrectAnswerPosition(string original_answer, string[] new_answers) {
         int correct_answer = 0;
-
         for (int i = 0; i < new_answers.Length; i++) {
             if (original_answer == new_answers[i]) {
-                Debug.Log(original_answer);
-                Debug.Log(new_answers[i]);
                 correct_answer = i;
+                break;
             }
         }
-
         return correct_answer;
     }
 
@@ -96,10 +105,50 @@ public class QuestionManager : MonoBehaviour
             new_question_line[1], new_question_line[2], new_question_line[3], new_question_line[4]
         });
 
-        string original_correct_answer = new_question_line[Int32.Parse(new_question_line[5])];
+        int original_answer_pos = Int32.Parse(new_question_line[5]) + 1;
+        string original_correct_answer = new_question_line[original_answer_pos];
 
         int correct_answer_pos = GetNewCorrectAnswerPosition(original_correct_answer, shuffled_answers);
 
         return new QuestionObj(question, shuffled_answers, correct_answer_pos);
+    }
+
+    private bool CheckIfRepeatedQuestion(int new_pos) {
+
+        bool is_repeated = Array.Exists(this.repeated_questions, el => el == new_pos); // Verifica se a questão já foi utilizada
+        bool new_space = Array.Exists(this.repeated_questions, el => el == -1); // Verifica se ainda existem espaços novos (-1)
+
+        //SE for repetido e ainda tiver (ou não) espaço no vetor ENTÃO retorne false
+        if(is_repeated && (new_space || !new_space)) {
+            //Debug.Log("Repetead  - New Space/!New Space");
+            return true;
+        }
+        //SE NÃO for repetido e ainda tiver espaço no vetor ENTÃO atualize o vetor de repetidos e retorne false
+        else if(!is_repeated && new_space) {
+            //Debug.Log("!Repetead - New Space");
+            UpdateRepeatedQuestions(new_pos);
+            return false;
+        }
+        //SE NÃO for repetido e NÃO tiver espaço no vetor ENTÃO atualize o vetor de repetidos e retorne true
+        else if(!is_repeated && !new_space) {
+            //Debug.Log("!Repetead - !New Space");
+            ResetAndRepeat(new_pos);
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    private void ResetAndRepeat(int new_pos) {
+        this.repeated_questions = new[] { new_pos, -1, -1 };
+    }
+
+    private void UpdateRepeatedQuestions(int new_pos) {
+        for(int i = 0; i < this.repeated_questions.Length; i++) {
+            if(this.repeated_questions[i] == -1) {
+                this.repeated_questions[i] = new_pos;
+                return;
+            }
+        }
     }
 }

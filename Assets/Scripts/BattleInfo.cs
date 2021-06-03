@@ -9,6 +9,13 @@ public class  BattleInfo : MonoBehaviour
     private string filepath = "Assets/Resources/";
     public UnitInfo player;
     public UnitInfo enemy;
+
+    public int Chapter {
+        get { return chapter; }
+        set { chapter = value; }
+    }
+    public int chapter;
+
     public static BattleInfo Instance;
 
     private void Start() {
@@ -21,7 +28,7 @@ public class  BattleInfo : MonoBehaviour
     }
 
     public void onClickSave() {
-        PlayerPrefsHandler.Save("Player", 10, 10, 50, 1, 0, 1, 0);
+        PlayerPrefsHandler.Save("Player", 10, 10, 1, 1, 0, 1, 0);
     }
 
     public void SetUnitsInfo(int enemy_id) {
