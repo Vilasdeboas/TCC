@@ -1,0 +1,14 @@
+{
+    "BundleInfos": [
+        {
+            "BundleName": "LearningChapters",
+            "m_HashString": "9e625303a9d9e8eaf9129015b9ea30a6",
+            "Dependencies": [],
+            "Size": 13611494
+        }
+    ],
+    "BuildTarget": "StandaloneWindows64",
+    "BuildTime": 637585094090749282,
+    "RemoteURL": "http://localhost/",
+    "m_GlobalHash": "9787b9392365d0c0e40cabcaeb212d3b"
+}

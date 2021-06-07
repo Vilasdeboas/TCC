@@ -1,0 +1,5 @@
+Build Time : 2021-06-05 14:03:29
+
+----File Path : D:/Projects/Unity Projects/TCC/TurnBasedLearningGame/LocalBundles/StandaloneWindows64/LearningChapters----
+   0,00058 mb - Assets/Resources/LearningChapters/Chap9/9.psd
+

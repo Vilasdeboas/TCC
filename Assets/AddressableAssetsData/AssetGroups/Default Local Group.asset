@@ -1,0 +1,1194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4be0d78955b9f884aa06fb095c0be862
+  m_SerializeEntries:
+  - m_GUID: a32ea86a5b6f742408325f05d2f3f533
+    m_Address: Assets/Resources_moved/LearningChapters
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 102900000, guid: a32ea86a5b6f742408325f05d2f3f533, type: 3}
+    m_TargetAsset: {fileID: 102900000, guid: a32ea86a5b6f742408325f05d2f3f533, type: 3}
+  - m_GUID: a1282496a0ed7314da973ce140b82c63
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a1282496a0ed7314da973ce140b82c63, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a1282496a0ed7314da973ce140b82c63, type: 3}
+  - m_GUID: c2dac2b7a811e3347a71946b7112eed5
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c2dac2b7a811e3347a71946b7112eed5, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c2dac2b7a811e3347a71946b7112eed5, type: 3}
+  - m_GUID: 6e14cb5eec0d27e4190f2ab40501d809
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 6e14cb5eec0d27e4190f2ab40501d809, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 6e14cb5eec0d27e4190f2ab40501d809, type: 3}
+  - m_GUID: 8aa358c1ab4acc64c964d0f50dcb9377
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8aa358c1ab4acc64c964d0f50dcb9377, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8aa358c1ab4acc64c964d0f50dcb9377, type: 3}
+  - m_GUID: 8db990147e086a348b6be08c2d81ca77
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8db990147e086a348b6be08c2d81ca77, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8db990147e086a348b6be08c2d81ca77, type: 3}
+  - m_GUID: 8ce76ac0bbbb0864f86b1ff0477359da
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8ce76ac0bbbb0864f86b1ff0477359da, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8ce76ac0bbbb0864f86b1ff0477359da, type: 3}
+  - m_GUID: b164c7b9e291fa74ea8a44dd98ba95f7
+    m_Address: Assets/Resources_moved/LearningChapters/Chap1/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b164c7b9e291fa74ea8a44dd98ba95f7, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b164c7b9e291fa74ea8a44dd98ba95f7, type: 3}
+  - m_GUID: c2007582f5fa6c74cbe7eb82419d9e09
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c2007582f5fa6c74cbe7eb82419d9e09, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c2007582f5fa6c74cbe7eb82419d9e09, type: 3}
+  - m_GUID: 9cfdcb1698803384d929b77d8ad4d94e
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9cfdcb1698803384d929b77d8ad4d94e, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9cfdcb1698803384d929b77d8ad4d94e, type: 3}
+  - m_GUID: fc43d27e101b7c64b8fa4be14bcc02eb
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: fc43d27e101b7c64b8fa4be14bcc02eb, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: fc43d27e101b7c64b8fa4be14bcc02eb, type: 3}
+  - m_GUID: f19ecf13471d08749be8c2766db6c08c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: f19ecf13471d08749be8c2766db6c08c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f19ecf13471d08749be8c2766db6c08c, type: 3}
+  - m_GUID: 3a1cc12ffe8111649964d18f34ef0de2
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 3a1cc12ffe8111649964d18f34ef0de2, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3a1cc12ffe8111649964d18f34ef0de2, type: 3}
+  - m_GUID: a662b900e4fb06345b2519d0a09ce611
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a662b900e4fb06345b2519d0a09ce611, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a662b900e4fb06345b2519d0a09ce611, type: 3}
+  - m_GUID: b9af5eeb3d6f4b74eb3b7155e5b20ef5
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b9af5eeb3d6f4b74eb3b7155e5b20ef5, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b9af5eeb3d6f4b74eb3b7155e5b20ef5, type: 3}
+  - m_GUID: 7834c84b41ad1aa4a90f491305a46da0
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 7834c84b41ad1aa4a90f491305a46da0, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7834c84b41ad1aa4a90f491305a46da0, type: 3}
+  - m_GUID: 1b7e3ae1e7646b741b3a07687ae137db
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 1b7e3ae1e7646b741b3a07687ae137db, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 1b7e3ae1e7646b741b3a07687ae137db, type: 3}
+  - m_GUID: 2cdc6a0ab29a41f44a8cb5e9407945cc
+    m_Address: Assets/Resources_moved/LearningChapters/Chap2/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2cdc6a0ab29a41f44a8cb5e9407945cc, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2cdc6a0ab29a41f44a8cb5e9407945cc, type: 3}
+  - m_GUID: dafab7246b1e16d4793d5e1fbdc3eb21
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: dafab7246b1e16d4793d5e1fbdc3eb21, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: dafab7246b1e16d4793d5e1fbdc3eb21, type: 3}
+  - m_GUID: dfe8b81aca56c17438126e50fd900f9f
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: dfe8b81aca56c17438126e50fd900f9f, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: dfe8b81aca56c17438126e50fd900f9f, type: 3}
+  - m_GUID: e7fae426bbf715345a56e19d5e8904ed
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: e7fae426bbf715345a56e19d5e8904ed, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e7fae426bbf715345a56e19d5e8904ed, type: 3}
+  - m_GUID: 050a581828ce5b94b88cf37505dade70
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 050a581828ce5b94b88cf37505dade70, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 050a581828ce5b94b88cf37505dade70, type: 3}
+  - m_GUID: 6ab48187c322ff44c97442efc8fd70ad
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 6ab48187c322ff44c97442efc8fd70ad, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 6ab48187c322ff44c97442efc8fd70ad, type: 3}
+  - m_GUID: b234bca0ccadfc64ea8d2febd21751c4
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b234bca0ccadfc64ea8d2febd21751c4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b234bca0ccadfc64ea8d2febd21751c4, type: 3}
+  - m_GUID: 186cc0dbb9e26b54ca72ae2914c1fab3
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 186cc0dbb9e26b54ca72ae2914c1fab3, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 186cc0dbb9e26b54ca72ae2914c1fab3, type: 3}
+  - m_GUID: c912c867af722a94e8a76874a47d28a9
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c912c867af722a94e8a76874a47d28a9, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c912c867af722a94e8a76874a47d28a9, type: 3}
+  - m_GUID: 2f2dca6a03404744babac90a8ffeaeb7
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2f2dca6a03404744babac90a8ffeaeb7, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2f2dca6a03404744babac90a8ffeaeb7, type: 3}
+  - m_GUID: ecf5e43fca19dd847810e8a1c05d7ba9
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ecf5e43fca19dd847810e8a1c05d7ba9, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ecf5e43fca19dd847810e8a1c05d7ba9, type: 3}
+  - m_GUID: a0c6577ab3fa37a45aeef4c30d68114b
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a0c6577ab3fa37a45aeef4c30d68114b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a0c6577ab3fa37a45aeef4c30d68114b, type: 3}
+  - m_GUID: a923b770eb46f844f80c28d8633c1c28
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a923b770eb46f844f80c28d8633c1c28, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a923b770eb46f844f80c28d8633c1c28, type: 3}
+  - m_GUID: 08204fe3177f93e4dafdd0853f607d7b
+    m_Address: Assets/Resources_moved/LearningChapters/Chap3/11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 08204fe3177f93e4dafdd0853f607d7b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 08204fe3177f93e4dafdd0853f607d7b, type: 3}
+  - m_GUID: 83cf9a3a07756994ebc880ef05f67015
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 83cf9a3a07756994ebc880ef05f67015, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 83cf9a3a07756994ebc880ef05f67015, type: 3}
+  - m_GUID: a6b36a138c23202438dc007d3f982302
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a6b36a138c23202438dc007d3f982302, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a6b36a138c23202438dc007d3f982302, type: 3}
+  - m_GUID: 6a0902eec63fda54d80c414e1827b185
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 6a0902eec63fda54d80c414e1827b185, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 6a0902eec63fda54d80c414e1827b185, type: 3}
+  - m_GUID: 2f3de6b61cdae424399b711fff26a2b0
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2f3de6b61cdae424399b711fff26a2b0, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2f3de6b61cdae424399b711fff26a2b0, type: 3}
+  - m_GUID: d37c5b8100c90e1438bd1dac7e5e4edd
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: d37c5b8100c90e1438bd1dac7e5e4edd, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d37c5b8100c90e1438bd1dac7e5e4edd, type: 3}
+  - m_GUID: 5f7f621fb11f3a94c921556c0100e5df
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 5f7f621fb11f3a94c921556c0100e5df, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5f7f621fb11f3a94c921556c0100e5df, type: 3}
+  - m_GUID: f1df9a0025b6e6b45af1b952921dd4f2
+    m_Address: Assets/Resources_moved/LearningChapters/Chap4/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: f1df9a0025b6e6b45af1b952921dd4f2, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f1df9a0025b6e6b45af1b952921dd4f2, type: 3}
+  - m_GUID: 8e2948f18c507684198ccc1201e5dfb1
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/25.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8e2948f18c507684198ccc1201e5dfb1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8e2948f18c507684198ccc1201e5dfb1, type: 3}
+  - m_GUID: b2868376ac2a71c4cb73931a941be534
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/15.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b2868376ac2a71c4cb73931a941be534, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b2868376ac2a71c4cb73931a941be534, type: 3}
+  - m_GUID: 19fc537e4177c93468f0b647aea3f433
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/23.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 19fc537e4177c93468f0b647aea3f433, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 19fc537e4177c93468f0b647aea3f433, type: 3}
+  - m_GUID: d32599a041316554eacf861b5f4a00ed
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/27.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: d32599a041316554eacf861b5f4a00ed, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d32599a041316554eacf861b5f4a00ed, type: 3}
+  - m_GUID: 2c9ceaac53656604e95edda621446a1b
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/16.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2c9ceaac53656604e95edda621446a1b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2c9ceaac53656604e95edda621446a1b, type: 3}
+  - m_GUID: 6808b92336f0d5a489d7d59b631bab77
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 6808b92336f0d5a489d7d59b631bab77, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 6808b92336f0d5a489d7d59b631bab77, type: 3}
+  - m_GUID: c6b1e36e265f7d4458712f6cafc781c4
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/33.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c6b1e36e265f7d4458712f6cafc781c4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c6b1e36e265f7d4458712f6cafc781c4, type: 3}
+  - m_GUID: 4a71d4b178e8ed648aa2e653794c5f06
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 4a71d4b178e8ed648aa2e653794c5f06, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 4a71d4b178e8ed648aa2e653794c5f06, type: 3}
+  - m_GUID: 2838b59016059994eb129d74160c5cb4
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2838b59016059994eb129d74160c5cb4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2838b59016059994eb129d74160c5cb4, type: 3}
+  - m_GUID: ded271f526081c44bbb698c721f72186
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/32.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ded271f526081c44bbb698c721f72186, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ded271f526081c44bbb698c721f72186, type: 3}
+  - m_GUID: 5f5d65fb38f91d04e8f18606085363d0
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/17.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 5f5d65fb38f91d04e8f18606085363d0, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5f5d65fb38f91d04e8f18606085363d0, type: 3}
+  - m_GUID: 01f43ce2cfba02f429d4465a45c83090
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/18.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 01f43ce2cfba02f429d4465a45c83090, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 01f43ce2cfba02f429d4465a45c83090, type: 3}
+  - m_GUID: ba099d65a57c2dc49b6c371006bafff0
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ba099d65a57c2dc49b6c371006bafff0, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ba099d65a57c2dc49b6c371006bafff0, type: 3}
+  - m_GUID: 95ece7298da202043a1c0b80b96a47f8
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 95ece7298da202043a1c0b80b96a47f8, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 95ece7298da202043a1c0b80b96a47f8, type: 3}
+  - m_GUID: e76332d97ae84e84f93f14fdc4b13da4
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: e76332d97ae84e84f93f14fdc4b13da4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e76332d97ae84e84f93f14fdc4b13da4, type: 3}
+  - m_GUID: 378eb57631811c44ea2f409b73c01c83
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/14.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 378eb57631811c44ea2f409b73c01c83, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 378eb57631811c44ea2f409b73c01c83, type: 3}
+  - m_GUID: dbddfee00817715499a48c36f5fc66ae
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: dbddfee00817715499a48c36f5fc66ae, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: dbddfee00817715499a48c36f5fc66ae, type: 3}
+  - m_GUID: 13e77b10e5e741647a2e8167995eb0da
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/30.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 13e77b10e5e741647a2e8167995eb0da, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 13e77b10e5e741647a2e8167995eb0da, type: 3}
+  - m_GUID: cb58170ed40f68a49ac1154fc5e0c29a
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/26.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: cb58170ed40f68a49ac1154fc5e0c29a, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: cb58170ed40f68a49ac1154fc5e0c29a, type: 3}
+  - m_GUID: 3939a22e8d167d741af2af6aba7fe99d
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/28.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 3939a22e8d167d741af2af6aba7fe99d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3939a22e8d167d741af2af6aba7fe99d, type: 3}
+  - m_GUID: 3874fb8bb29fb9c458edc8787feb8741
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 3874fb8bb29fb9c458edc8787feb8741, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3874fb8bb29fb9c458edc8787feb8741, type: 3}
+  - m_GUID: 9bd78fab172f0714db643501dde52cc7
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/21.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9bd78fab172f0714db643501dde52cc7, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9bd78fab172f0714db643501dde52cc7, type: 3}
+  - m_GUID: 983f35c57b5aca74d8a1e2464a447b76
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 983f35c57b5aca74d8a1e2464a447b76, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 983f35c57b5aca74d8a1e2464a447b76, type: 3}
+  - m_GUID: c520bd20438a388478ab17f2be4933d1
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c520bd20438a388478ab17f2be4933d1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c520bd20438a388478ab17f2be4933d1, type: 3}
+  - m_GUID: 304d787c4be348e41a9f79b027b289fb
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/24.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 304d787c4be348e41a9f79b027b289fb, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 304d787c4be348e41a9f79b027b289fb, type: 3}
+  - m_GUID: 972fbcb581d2f124d8bcb0f9ec6d64ba
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/31.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 972fbcb581d2f124d8bcb0f9ec6d64ba, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 972fbcb581d2f124d8bcb0f9ec6d64ba, type: 3}
+  - m_GUID: 61c4e9abf2eb2d745ab97a008c46b99f
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/29.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 61c4e9abf2eb2d745ab97a008c46b99f, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 61c4e9abf2eb2d745ab97a008c46b99f, type: 3}
+  - m_GUID: 59e94a6f9c959ec4386c3a6ca3b115f6
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 59e94a6f9c959ec4386c3a6ca3b115f6, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 59e94a6f9c959ec4386c3a6ca3b115f6, type: 3}
+  - m_GUID: 0a4931b81843c3440adcfc96dfbe8cef
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 0a4931b81843c3440adcfc96dfbe8cef, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0a4931b81843c3440adcfc96dfbe8cef, type: 3}
+  - m_GUID: 8211924c0843e8f4e98233eae08c23c6
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/19.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8211924c0843e8f4e98233eae08c23c6, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8211924c0843e8f4e98233eae08c23c6, type: 3}
+  - m_GUID: ba899e60d997b854aa82d383bd76cc1b
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/20.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ba899e60d997b854aa82d383bd76cc1b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ba899e60d997b854aa82d383bd76cc1b, type: 3}
+  - m_GUID: 2e87f4aaa7081624fab2630acddb0953
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/22.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2e87f4aaa7081624fab2630acddb0953, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2e87f4aaa7081624fab2630acddb0953, type: 3}
+  - m_GUID: bb721d7fbc9cf1146a7544dce9a4bb78
+    m_Address: Assets/Resources_moved/LearningChapters/Chap5/11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: bb721d7fbc9cf1146a7544dce9a4bb78, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: bb721d7fbc9cf1146a7544dce9a4bb78, type: 3}
+  - m_GUID: 9228fc6d72b4e3546ad0c0119a77bc4c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/18.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9228fc6d72b4e3546ad0c0119a77bc4c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9228fc6d72b4e3546ad0c0119a77bc4c, type: 3}
+  - m_GUID: d2a55d62c2215ba4488537c050ff8943
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: d2a55d62c2215ba4488537c050ff8943, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d2a55d62c2215ba4488537c050ff8943, type: 3}
+  - m_GUID: 3eb031e5027a594479d4e8a6ccd46083
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 3eb031e5027a594479d4e8a6ccd46083, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3eb031e5027a594479d4e8a6ccd46083, type: 3}
+  - m_GUID: ce182e18c77d9ab4a84092f9c8db4e75
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ce182e18c77d9ab4a84092f9c8db4e75, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ce182e18c77d9ab4a84092f9c8db4e75, type: 3}
+  - m_GUID: 08dd064474e82e54898f2a2c95842955
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/16.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 08dd064474e82e54898f2a2c95842955, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 08dd064474e82e54898f2a2c95842955, type: 3}
+  - m_GUID: 886e1148f71740c4a8d15c70c682936b
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 886e1148f71740c4a8d15c70c682936b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 886e1148f71740c4a8d15c70c682936b, type: 3}
+  - m_GUID: df367cda02824444291fae93f9d552cc
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/15.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: df367cda02824444291fae93f9d552cc, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: df367cda02824444291fae93f9d552cc, type: 3}
+  - m_GUID: 40b34e3d3a4d2a747abb29d4fd223c1c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/14.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 40b34e3d3a4d2a747abb29d4fd223c1c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 40b34e3d3a4d2a747abb29d4fd223c1c, type: 3}
+  - m_GUID: 65a21c87194135945ac4cf901bc06994
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 65a21c87194135945ac4cf901bc06994, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 65a21c87194135945ac4cf901bc06994, type: 3}
+  - m_GUID: 0cf2052a7dd0acd4487257bf024e2eda
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 0cf2052a7dd0acd4487257bf024e2eda, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0cf2052a7dd0acd4487257bf024e2eda, type: 3}
+  - m_GUID: 20587e221895a08488b9c779bb4f642c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 20587e221895a08488b9c779bb4f642c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 20587e221895a08488b9c779bb4f642c, type: 3}
+  - m_GUID: 81377090cfab83f44a2a55176af0e02d
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 81377090cfab83f44a2a55176af0e02d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 81377090cfab83f44a2a55176af0e02d, type: 3}
+  - m_GUID: fff8863eafeacf342ae266c967b2b134
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: fff8863eafeacf342ae266c967b2b134, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: fff8863eafeacf342ae266c967b2b134, type: 3}
+  - m_GUID: 7ee33e4b8381ff14db40cfe0d71a9be2
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/19.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 7ee33e4b8381ff14db40cfe0d71a9be2, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7ee33e4b8381ff14db40cfe0d71a9be2, type: 3}
+  - m_GUID: e32b859f14f25c34a9c70156b3836a22
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: e32b859f14f25c34a9c70156b3836a22, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e32b859f14f25c34a9c70156b3836a22, type: 3}
+  - m_GUID: de559e357c52e4d4397389bb939dfc7b
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: de559e357c52e4d4397389bb939dfc7b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: de559e357c52e4d4397389bb939dfc7b, type: 3}
+  - m_GUID: 4ecfc4b16c6692949b585415a6849c44
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/17.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 4ecfc4b16c6692949b585415a6849c44, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 4ecfc4b16c6692949b585415a6849c44, type: 3}
+  - m_GUID: f80b7fc1460496e499ff9f6ddf3bfb9f
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: f80b7fc1460496e499ff9f6ddf3bfb9f, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f80b7fc1460496e499ff9f6ddf3bfb9f, type: 3}
+  - m_GUID: f697a0eda896f0b44a3936cb6404ee2d
+    m_Address: Assets/Resources_moved/LearningChapters/Chap7/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: f697a0eda896f0b44a3936cb6404ee2d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f697a0eda896f0b44a3936cb6404ee2d, type: 3}
+  - m_GUID: 77ed72022206b184f8aa6a580df17adf
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 77ed72022206b184f8aa6a580df17adf, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 77ed72022206b184f8aa6a580df17adf, type: 3}
+  - m_GUID: a63ae19badb846d4798ce18001c68843
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a63ae19badb846d4798ce18001c68843, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a63ae19badb846d4798ce18001c68843, type: 3}
+  - m_GUID: 752ae321ac42fa64db22cdacbdb12691
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 752ae321ac42fa64db22cdacbdb12691, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 752ae321ac42fa64db22cdacbdb12691, type: 3}
+  - m_GUID: 007170aba08a0be4bbbf6e057428eafd
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 007170aba08a0be4bbbf6e057428eafd, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 007170aba08a0be4bbbf6e057428eafd, type: 3}
+  - m_GUID: 44eb22dc10fe6c94b8ba0926b02782eb
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 44eb22dc10fe6c94b8ba0926b02782eb, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 44eb22dc10fe6c94b8ba0926b02782eb, type: 3}
+  - m_GUID: c49803ad15a8bed43aa3c10359b93aeb
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c49803ad15a8bed43aa3c10359b93aeb, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c49803ad15a8bed43aa3c10359b93aeb, type: 3}
+  - m_GUID: b3930b7b937d14947a0b1f3fc9a52736
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b3930b7b937d14947a0b1f3fc9a52736, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b3930b7b937d14947a0b1f3fc9a52736, type: 3}
+  - m_GUID: 6a971dc49c2e309449d79619f9fb8b91
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 6a971dc49c2e309449d79619f9fb8b91, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 6a971dc49c2e309449d79619f9fb8b91, type: 3}
+  - m_GUID: 8d17937bc3946ba4da9b8ddb19958049
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8d17937bc3946ba4da9b8ddb19958049, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8d17937bc3946ba4da9b8ddb19958049, type: 3}
+  - m_GUID: 4e49e0f0e1b57aa43b6ece2bc9a69cf8
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 4e49e0f0e1b57aa43b6ece2bc9a69cf8, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 4e49e0f0e1b57aa43b6ece2bc9a69cf8, type: 3}
+  - m_GUID: 7b13f9e0d153c9b4a9dec3be48e55266
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 7b13f9e0d153c9b4a9dec3be48e55266, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7b13f9e0d153c9b4a9dec3be48e55266, type: 3}
+  - m_GUID: 8f6147cbfc42b554c82b394eb3d22186
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8f6147cbfc42b554c82b394eb3d22186, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8f6147cbfc42b554c82b394eb3d22186, type: 3}
+  - m_GUID: a77f68355ed9e0a49bc3b216d6ccd928
+    m_Address: Assets/Resources_moved/LearningChapters/Chap9/12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a77f68355ed9e0a49bc3b216d6ccd928, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a77f68355ed9e0a49bc3b216d6ccd928, type: 3}
+  - m_GUID: 5c91a89b123afd54583a615de95d33be
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 5c91a89b123afd54583a615de95d33be, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5c91a89b123afd54583a615de95d33be, type: 3}
+  - m_GUID: 9267b8db3b3611948accc5a68613faf1
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9267b8db3b3611948accc5a68613faf1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9267b8db3b3611948accc5a68613faf1, type: 3}
+  - m_GUID: d4fa197e09cfece4eb95253c8a0a53f6
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/28.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: d4fa197e09cfece4eb95253c8a0a53f6, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d4fa197e09cfece4eb95253c8a0a53f6, type: 3}
+  - m_GUID: fbef303eb7cf7b744bf15d8a57d70d38
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/31.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: fbef303eb7cf7b744bf15d8a57d70d38, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: fbef303eb7cf7b744bf15d8a57d70d38, type: 3}
+  - m_GUID: bc18845b103db8e4e9645501edfd06ea
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: bc18845b103db8e4e9645501edfd06ea, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: bc18845b103db8e4e9645501edfd06ea, type: 3}
+  - m_GUID: 5db1cf1064959d34aab705184be33979
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/25.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 5db1cf1064959d34aab705184be33979, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5db1cf1064959d34aab705184be33979, type: 3}
+  - m_GUID: 93b31aac90796a340838916269ef1f61
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 93b31aac90796a340838916269ef1f61, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 93b31aac90796a340838916269ef1f61, type: 3}
+  - m_GUID: ae21bbe33fc061e4aaa4335cfc481460
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/32.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ae21bbe33fc061e4aaa4335cfc481460, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ae21bbe33fc061e4aaa4335cfc481460, type: 3}
+  - m_GUID: ab1184f4ea65a8049a4717613e1f2f74
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/18.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ab1184f4ea65a8049a4717613e1f2f74, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ab1184f4ea65a8049a4717613e1f2f74, type: 3}
+  - m_GUID: 7625b2f8d163e244e8a190a7b6e001c1
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/21.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 7625b2f8d163e244e8a190a7b6e001c1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7625b2f8d163e244e8a190a7b6e001c1, type: 3}
+  - m_GUID: b5a021977ff19584ab5dafea332e49e9
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b5a021977ff19584ab5dafea332e49e9, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b5a021977ff19584ab5dafea332e49e9, type: 3}
+  - m_GUID: 07c9d609dc15cab46917e2fd71cc0f0a
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/16.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 07c9d609dc15cab46917e2fd71cc0f0a, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 07c9d609dc15cab46917e2fd71cc0f0a, type: 3}
+  - m_GUID: f273d5ff41c55b94f9b95865b0612b9d
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/26.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: f273d5ff41c55b94f9b95865b0612b9d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f273d5ff41c55b94f9b95865b0612b9d, type: 3}
+  - m_GUID: c04407c324ace4a43b23aa9e4da0465c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c04407c324ace4a43b23aa9e4da0465c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c04407c324ace4a43b23aa9e4da0465c, type: 3}
+  - m_GUID: 22a2386ac667c2b418eb1b7e99199d31
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/29.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 22a2386ac667c2b418eb1b7e99199d31, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 22a2386ac667c2b418eb1b7e99199d31, type: 3}
+  - m_GUID: dbe7a99cd22fbd546ad830acdf086f4e
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: dbe7a99cd22fbd546ad830acdf086f4e, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: dbe7a99cd22fbd546ad830acdf086f4e, type: 3}
+  - m_GUID: 37ddde0f4fd242b4daa7af74b2ec104d
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/15.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 37ddde0f4fd242b4daa7af74b2ec104d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 37ddde0f4fd242b4daa7af74b2ec104d, type: 3}
+  - m_GUID: 5a6ebdbc534c6914dbe709c8ec71a349
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/14.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 5a6ebdbc534c6914dbe709c8ec71a349, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5a6ebdbc534c6914dbe709c8ec71a349, type: 3}
+  - m_GUID: 3420e64d144b3024c8b5b330826682ff
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 3420e64d144b3024c8b5b330826682ff, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3420e64d144b3024c8b5b330826682ff, type: 3}
+  - m_GUID: 5939622f0fcdb3043b7300de16145766
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 5939622f0fcdb3043b7300de16145766, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5939622f0fcdb3043b7300de16145766, type: 3}
+  - m_GUID: 0ac2c0b4ba8ec0e49ac8e668bc07bdde
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/17.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 0ac2c0b4ba8ec0e49ac8e668bc07bdde, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0ac2c0b4ba8ec0e49ac8e668bc07bdde, type: 3}
+  - m_GUID: 8e7a1c9067cc82b498846f9c7bf403a4
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8e7a1c9067cc82b498846f9c7bf403a4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8e7a1c9067cc82b498846f9c7bf403a4, type: 3}
+  - m_GUID: 202e34c87846f7f48b043943cf516d0d
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 202e34c87846f7f48b043943cf516d0d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 202e34c87846f7f48b043943cf516d0d, type: 3}
+  - m_GUID: c4832a03b4668284e996ed728ad6cd52
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/20.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: c4832a03b4668284e996ed728ad6cd52, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: c4832a03b4668284e996ed728ad6cd52, type: 3}
+  - m_GUID: e4c11a60efc01d14a95cedd1c1445318
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/27.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: e4c11a60efc01d14a95cedd1c1445318, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e4c11a60efc01d14a95cedd1c1445318, type: 3}
+  - m_GUID: 0b720a984960e7f4ea62bed3ddfd1c1a
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/23.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 0b720a984960e7f4ea62bed3ddfd1c1a, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0b720a984960e7f4ea62bed3ddfd1c1a, type: 3}
+  - m_GUID: 7bc144b10852ad344b3fa3790e1e4b84
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/22.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 7bc144b10852ad344b3fa3790e1e4b84, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7bc144b10852ad344b3fa3790e1e4b84, type: 3}
+  - m_GUID: a9b42792d8a58df4c984f6eaa403fd11
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/24.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: a9b42792d8a58df4c984f6eaa403fd11, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a9b42792d8a58df4c984f6eaa403fd11, type: 3}
+  - m_GUID: 1341ffe2cc3fc2f4ca722d01ef0269bd
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/19.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 1341ffe2cc3fc2f4ca722d01ef0269bd, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 1341ffe2cc3fc2f4ca722d01ef0269bd, type: 3}
+  - m_GUID: 4c8411655d7304a4a98b86dad505470a
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/30.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 4c8411655d7304a4a98b86dad505470a, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 4c8411655d7304a4a98b86dad505470a, type: 3}
+  - m_GUID: f9a0ec6cbaf23ca4c953843e86b91bdc
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/33.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: f9a0ec6cbaf23ca4c953843e86b91bdc, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f9a0ec6cbaf23ca4c953843e86b91bdc, type: 3}
+  - m_GUID: 57cd15fc143bf3346862e2efcb3ea471
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 57cd15fc143bf3346862e2efcb3ea471, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 57cd15fc143bf3346862e2efcb3ea471, type: 3}
+  - m_GUID: 92bfa0bc0b194aa4e9ba14a048b14ba7
+    m_Address: Assets/Resources_moved/LearningChapters/Chap10/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 92bfa0bc0b194aa4e9ba14a048b14ba7, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 92bfa0bc0b194aa4e9ba14a048b14ba7, type: 3}
+  - m_GUID: d65d59c887e7d0b429ca773012214da0
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/28.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: d65d59c887e7d0b429ca773012214da0, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d65d59c887e7d0b429ca773012214da0, type: 3}
+  - m_GUID: ff8e3bb30c8b47c4cb4eb7022c951e24
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/25.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ff8e3bb30c8b47c4cb4eb7022c951e24, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ff8e3bb30c8b47c4cb4eb7022c951e24, type: 3}
+  - m_GUID: 61318e1a8dc2bf54388424fd9e24db8e
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/6.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 61318e1a8dc2bf54388424fd9e24db8e, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 61318e1a8dc2bf54388424fd9e24db8e, type: 3}
+  - m_GUID: 3a57e34855488784495b50e37e7e6a8c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/19.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 3a57e34855488784495b50e37e7e6a8c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3a57e34855488784495b50e37e7e6a8c, type: 3}
+  - m_GUID: 1ef36074d917bd9439cf67c6f221a746
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/17.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 1ef36074d917bd9439cf67c6f221a746, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 1ef36074d917bd9439cf67c6f221a746, type: 3}
+  - m_GUID: 2788652f7c0f5aa4dab8051c374fe128
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/24.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 2788652f7c0f5aa4dab8051c374fe128, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 2788652f7c0f5aa4dab8051c374fe128, type: 3}
+  - m_GUID: 9a7b4a678aa5c8841996f88ca20a5738
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/30.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9a7b4a678aa5c8841996f88ca20a5738, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9a7b4a678aa5c8841996f88ca20a5738, type: 3}
+  - m_GUID: 81dc2bc112eb9c846b0d6713afe7bf30
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/2.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 81dc2bc112eb9c846b0d6713afe7bf30, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 81dc2bc112eb9c846b0d6713afe7bf30, type: 3}
+  - m_GUID: 4f3f49286fdc6f640a735241d444830f
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/21.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 4f3f49286fdc6f640a735241d444830f, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 4f3f49286fdc6f640a735241d444830f, type: 3}
+  - m_GUID: 7170e4394ec35c84a8cce95ba18bd775
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/16.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 7170e4394ec35c84a8cce95ba18bd775, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7170e4394ec35c84a8cce95ba18bd775, type: 3}
+  - m_GUID: 599741853ebabda49b6800a77066db51
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/22.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 599741853ebabda49b6800a77066db51, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 599741853ebabda49b6800a77066db51, type: 3}
+  - m_GUID: 52da57b8061d4d94994e44e0b545f3aa
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/27.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 52da57b8061d4d94994e44e0b545f3aa, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 52da57b8061d4d94994e44e0b545f3aa, type: 3}
+  - m_GUID: b7890bd155e7ca343985369eefd28f6e
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/26.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: b7890bd155e7ca343985369eefd28f6e, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: b7890bd155e7ca343985369eefd28f6e, type: 3}
+  - m_GUID: ed5c5e86a74eb684a98ff30a42f1b51c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/5.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ed5c5e86a74eb684a98ff30a42f1b51c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ed5c5e86a74eb684a98ff30a42f1b51c, type: 3}
+  - m_GUID: 0bdcdec00fa98d6499e06bb56c97fcaa
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/10.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 0bdcdec00fa98d6499e06bb56c97fcaa, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0bdcdec00fa98d6499e06bb56c97fcaa, type: 3}
+  - m_GUID: bd31898765b6de1458ac8d8de52883da
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/31.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: bd31898765b6de1458ac8d8de52883da, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: bd31898765b6de1458ac8d8de52883da, type: 3}
+  - m_GUID: ea83dab97538cbf4aae26e922723c1ba
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/23.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ea83dab97538cbf4aae26e922723c1ba, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ea83dab97538cbf4aae26e922723c1ba, type: 3}
+  - m_GUID: d4e9b88fc9df623459795699da1480f2
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/8.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: d4e9b88fc9df623459795699da1480f2, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d4e9b88fc9df623459795699da1480f2, type: 3}
+  - m_GUID: 9a47f26078ce946469faf33f46532f2c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/20.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9a47f26078ce946469faf33f46532f2c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9a47f26078ce946469faf33f46532f2c, type: 3}
+  - m_GUID: 121d93df016e06c4181e05af81cd3ccd
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/4.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 121d93df016e06c4181e05af81cd3ccd, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 121d93df016e06c4181e05af81cd3ccd, type: 3}
+  - m_GUID: 9661b1df772f7e84fbb21ff856b5068c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/15.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 9661b1df772f7e84fbb21ff856b5068c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9661b1df772f7e84fbb21ff856b5068c, type: 3}
+  - m_GUID: 8e9c2eb0bc95b824786aa7f6c8f56926
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/13.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 8e9c2eb0bc95b824786aa7f6c8f56926, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8e9c2eb0bc95b824786aa7f6c8f56926, type: 3}
+  - m_GUID: 288807b52c9807c4aa344a453701565c
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/1.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 288807b52c9807c4aa344a453701565c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 288807b52c9807c4aa344a453701565c, type: 3}
+  - m_GUID: 88232c7d742496341ad2b033a29e0306
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/29.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 88232c7d742496341ad2b033a29e0306, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 88232c7d742496341ad2b033a29e0306, type: 3}
+  - m_GUID: 1c4c428be3b63ca45a3a2277461216e0
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/11.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 1c4c428be3b63ca45a3a2277461216e0, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 1c4c428be3b63ca45a3a2277461216e0, type: 3}
+  - m_GUID: 4e554228bad018342beb8231692f4648
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/14.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 4e554228bad018342beb8231692f4648, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 4e554228bad018342beb8231692f4648, type: 3}
+  - m_GUID: 449794bde15b06d4eb806471043792b4
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/7.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 449794bde15b06d4eb806471043792b4, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 449794bde15b06d4eb806471043792b4, type: 3}
+  - m_GUID: 11c398e2dff68424ab33c15656148f44
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/12.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 11c398e2dff68424ab33c15656148f44, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 11c398e2dff68424ab33c15656148f44, type: 3}
+  - m_GUID: ca2e6bfe2d1baa2488dbe78e93f03d84
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/18.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: ca2e6bfe2d1baa2488dbe78e93f03d84, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ca2e6bfe2d1baa2488dbe78e93f03d84, type: 3}
+  - m_GUID: 0ef62a5a59c5f5a42b0237bd3336edc1
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/9.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: 0ef62a5a59c5f5a42b0237bd3336edc1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0ef62a5a59c5f5a42b0237bd3336edc1, type: 3}
+  - m_GUID: eaeb1a275dbf87e4395524f45d4446c5
+    m_Address: Assets/Resources_moved/LearningChapters/Chap11/3.psd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    m_MainAsset: {fileID: 2800000, guid: eaeb1a275dbf87e4395524f45d4446c5, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: eaeb1a275dbf87e4395524f45d4446c5, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 709287499309119409e676906971ec36, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e0f05cdaa2a2ff1478f0e5d21d2c9a15, type: 2}
+    - {fileID: 11400000, guid: 59ce21ec795251e4aae7cd907abee4d1, type: 2}
