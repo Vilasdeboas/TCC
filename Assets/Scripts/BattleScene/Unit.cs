@@ -24,6 +24,12 @@ public class Unit : MonoBehaviour {
 
     private List<Sprite> sprites = new List<Sprite>();
 
+    private void Start() {
+        if (battleInfo == null) {
+            battleInfo = FindObjectOfType<BattleInfo>();
+        }
+    }
+
     public void SetInfo() {
         battleInfo = GameObject.Find("BattleInfo").GetComponent<BattleInfo>();
         if(isPlayer) {
