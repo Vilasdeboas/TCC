@@ -43,6 +43,7 @@ public class LearningSceneSystem : MonoBehaviour
     }
 
     public void Return() {
+        Destroy(GameObject.Find("BattleInfo"));
         SceneManager.LoadScene("MainMenu");
     }
 }

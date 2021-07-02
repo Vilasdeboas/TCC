@@ -7,9 +7,24 @@ public class MainMenuHandler : MonoBehaviour {
 
     public BattleInfo battleInfo;
     public LearningInfo learningInfo;
+    public CanvasGroup storyModal;
 
     public void LoadBattleScene() {
         SceneManager.LoadScene("BattleScene");
+    }
+
+
+
+    public void OpenStoryModal() {
+        storyModal.alpha = 1;
+        storyModal.blocksRaycasts = true;
+        storyModal.interactable = true;
+    }
+
+    public void CloseStoryModal() {
+        storyModal.alpha = 0;
+        storyModal.blocksRaycasts = false;
+        storyModal.interactable = false;
     }
 
     public void LoadLearningScene(int chapter) {

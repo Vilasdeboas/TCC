@@ -75,6 +75,7 @@ public class Unit : MonoBehaviour {
         return name.ToLower().Replace(" ", "_");
     }
     public void UpdatePlayerPrefs() {
+        currentHP = maxHP;
         PlayerPrefsHandler.Save(unitName, maxHP, currentHP, damage, unitLevel, totalExperience, requiredExperience, actualExperience);
     }
 
@@ -89,7 +90,12 @@ public class Unit : MonoBehaviour {
                 actual -= requiredExperience;
                 actualExperience = actual;
                 unitLevel++;
-                requiredExperience = unitLevel * 1;
+                this.damage = (int) Mathf.Ceil(unitLevel / 2);
+                Debug.Log(unitLevel);
+                Debug.Log(unitLevel/2);
+                this.maxHP = unitLevel % 2 == 0 ? (10 + unitLevel) : maxHP;
+                Debug.Log(unitLevel % 2 == 0);
+                requiredExperience = unitLevel * 2;
             } else {
                 levelUpModal.PrepareAndShow(unitLevel, totalExperience, actual, requiredExperience);
                 levelUpDone = true;

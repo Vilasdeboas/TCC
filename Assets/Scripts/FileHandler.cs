@@ -5,9 +5,9 @@ using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 
-public class QuestionHandler : MonoBehaviour {
+public class FileHandler : MonoBehaviour {
 
-    private static QuestionHandler Instance;
+    private static FileHandler Instance;
 
     private void Start() {
         if(Instance == null) {

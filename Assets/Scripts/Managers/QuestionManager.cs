@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class QuestionManager : MonoBehaviour
 {
     public static QuestionManager Instance;
-    public QuestionHandler fileHandler;
+    public FileHandler fileHandler;
     //private string filepath = "Assets/Resources/";
     //private string filename = "questions.csv";
     private List<string[]> questions_list;

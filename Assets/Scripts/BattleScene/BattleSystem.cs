@@ -75,22 +75,22 @@ public class BattleSystem : MonoBehaviour {
         StartCoroutine(SetupTurn());
     }
     private void EnemyTurn() {
-        string turnTextPlaceholder = "DEFENSE TURN";
+        string turnTextPlaceholder = "TURNO DE DEFESA";
         dialogueText.text = turnTextPlaceholder;
         turnText.text = turnTextPlaceholder;
     }
 
     IEnumerator EnemyAttack(int option) {
-        dialogueText.text = enemyUnit.unitName + " attacks!";
+        dialogueText.text = enemyUnit.unitName + " ataca!";
         yield return new WaitForSeconds(1f);
         bool isDead = false;
         if(option != correctAnswer) {
-            dialogueText.text = "Wrong answer! The enemy hits you!";
-            DamagePopup.Create(playerUnit.transform.position + new Vector3(0, 1), "Hit", true);
+            dialogueText.text = "Errado! O inimigo te acerta!";
+            DamagePopup.Create(playerUnit.transform.position + new Vector3(0, 1), MessageGenerator.getEnemyHitMessage(), true);
             isDead = playerUnit.TakeDamage(enemyUnit.damage);
             playerHUD.SetHP(playerUnit);
         } else {
-            dialogueText.text = "Correct answer! You take no damage!";
+            dialogueText.text = "Correto! Você não perde vida!";
         }
 
         yield return new WaitForSeconds(2f);
@@ -115,11 +115,11 @@ public class BattleSystem : MonoBehaviour {
 
     private void EndBattle() {
         if(state == BattleState.WON) {
-            dialogueText.text = "You won the battle!";
+            dialogueText.text = "Você venceu a batalha!";
             playerUnit.calculatePlayerExperience(enemyUnit.experience, levelUpModal);
         }
         if(state == BattleState.LOST) {
-            dialogueText.text = "You were defeated.";
+            dialogueText.text = "Você foi derrotado.";
         }
         playerUnit.UpdatePlayerPrefs();
     }
@@ -139,7 +139,7 @@ public class BattleSystem : MonoBehaviour {
     }
 
     private void PlayerTurn() {
-        string turnTextPlaceholder = "ATTACK TURN";
+        string turnTextPlaceholder = "TURNO DE ATAQUE";
         dialogueText.text = turnTextPlaceholder;
         turnText.text = turnTextPlaceholder;
     }
@@ -148,12 +148,12 @@ public class BattleSystem : MonoBehaviour {
         bool isDead = false;
         if(option == correctAnswer) {
             isDead = enemyUnit.TakeDamage(playerUnit.damage);
-            DamagePopup.Create(enemyUnit.transform.position, "Hit!", true);
+            DamagePopup.Create(enemyUnit.transform.position, MessageGenerator.getHitMessage(), true);
             enemyHUD.SetHP(enemyUnit);
-            dialogueText.text = "Correct answer!";
+            dialogueText.text = "Resposta correta!";
         } else {
-            DamagePopup.Create(enemyUnit.transform.position, "Whack...", false);
-            dialogueText.text = "Wrong answer!";
+            DamagePopup.Create(enemyUnit.transform.position, MessageGenerator.getMissMessage(), false);
+            dialogueText.text = "Resposta incorreta!";
         }
         yield return new WaitForSeconds(2f);
         if(isDead) {

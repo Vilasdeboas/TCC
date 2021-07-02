@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BattleHUD">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAEBAAAAAAAAAAIAAAAAAAAAAAAgACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BattleScene\BattleHUD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleInfo">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAAAAAAAAAAAAAAAAACBCABQgAAAAAAAMI=</HashCode>
+      <FileName>Assets\Scripts\BattleScene\BattleInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="questionHandler" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BattleSystem">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACUAAAEkgCAA4BiAAAAIBAAAAEAACCgFgHIAQIIgAAg=</HashCode>
+      <FileName>Assets\Scripts\BattleScene\BattleSystem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerHUD" />
+      <Field Name="enemyHUD" />
+      <Field Name="battleInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LearningInfo">
+    <Position X="6" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAAAAAAAAACAAAASAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\LearningScene\LearningInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearningSceneSystem">
+    <Position X="8.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAgAAAAAAIAAAAAAAAIEAAAAAEAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\LearningScene\LearningSceneSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuHandler">
+    <Position X="3.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAFAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MainMenuHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="battleInfo" />
+      <Field Name="learningInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MapManager">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAEIAAAAAAAAAAAAQIAQAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\Managers\MapManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="battleInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MapWatcher">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAgAAQAAAAAABAAA=</HashCode>
+      <FileName>Assets\Scripts\MapWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PlayerData.PlayerStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\PlayerData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgAAABAAAAAAAAAEFAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerPrefsHandler">
+    <Position X="8.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerPrefsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionHandler">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAACAAAABAAAAAAAAAgAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\QuestionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionManager">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAUAAAACAAQAAgABAAAIAFBACAAAAARAAAJAAAAkQ=</HashCode>
+      <FileName>Assets\Scripts\Managers\QuestionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionObj">
+    <Position X="12.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAAAAAAAAAAAARAAAAEQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\POCOs\QuestionObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gACAKBAAACIARAIACAAAAAEAAEQQAAAIUACAAAAQQEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ResourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpriteManager">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpriteManager.SPRITE_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Managers\SpriteManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACEAAAAAAAEAAAAAAAAQAEAgQAAAAAMAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Unit">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Unit.Animation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\BattleScene\Unit.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgQAEAACAAgAAIAEAMAQCAABAHBUAQACDAgCCAAAA=</HashCode>
+      <FileName>Assets\Scripts\BattleScene\Unit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="battleInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UnitInfo">
+    <Position X="6" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAACAABAAAAAQAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BattleScene\BattleInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

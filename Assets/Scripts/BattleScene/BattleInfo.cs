@@ -9,7 +9,7 @@ public class  BattleInfo : MonoBehaviour
     //private string filepath = "Assets/Resources/";
     public UnitInfo player;
     public UnitInfo enemy;
-    private QuestionHandler questionHandler;
+    private FileHandler fileHandler;
 
     public int Chapter {
         get { return chapter; }
@@ -20,7 +20,10 @@ public class  BattleInfo : MonoBehaviour
     public static BattleInfo Instance;
 
     private void Awake() {
-        questionHandler = FindObjectOfType<QuestionHandler>();
+        fileHandler = FindObjectOfType<FileHandler>();
+        if (PlayerPrefsHandler.Load().name == null || PlayerPrefsHandler.Load().name == "") {
+            PlayerPrefsHandler.Save("Jogador", 10, 10, 1, 1, 0, 1, 0);
+        }
     }
 
     private void Start() {
@@ -33,14 +36,15 @@ public class  BattleInfo : MonoBehaviour
     }
 
     public void onClickSave() {
-        PlayerPrefsHandler.Save("Player", 10, 10, 1, 1, 0, 1, 0);
+        //PlayerPrefsHandler.Save("Jogador", 10, 10, 1, 1, 0, 1, 0);
+        PlayerPrefsHandler.Save("", 10, 10, 1, 1, 0, 1, 0);
     }
 
     public void SetUnitsInfo(int enemy_id) {
         enemy = new UnitInfo();
         List<string[]> enemiesList = new List<string[]>();
 
-        enemiesList = questionHandler.ReadCSVFileFromObject(ResourceManager.GetUnitList(), ",");
+        enemiesList = fileHandler.ReadCSVFileFromObject(ResourceManager.GetUnitList(), ",");
 
         string[] enemy_info = GetEnemyFromList(enemiesList, enemy_id);
 
